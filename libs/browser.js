@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const logger = require('./logger');
+const logger = require(__basedir + '/libs/logger');
 
 const proxy = {
   host: process.env.PROXY_HOST,

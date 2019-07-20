@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const browser = require('../libs/browser');
+const browser = require(__basedir + '/libs/browser');
 
 /* Scrap web HTML content */
 router.get('/', async function(req, res, next) {

@@ -43,9 +43,10 @@ Then access it from browser: [127.0.0.1:3000](http://127.0.0.1:3000)
 
 ### API
 
-| Method | Path  | Query string         |
-|--------|-------|----------------------|
-| GET    | /html | url=http://jslim.net |
+| Method | Path  | Query string         | Description                                    |
+|--------|-------|----------------------|------------------------------------------------|
+| GET    | /html | url=http://jslim.net | Get the HTML content                           |
+| GET    | /img  | url=http://jslim.net | Download all images from `<img>` into zip file |
 
 ## Disclaimer
 
