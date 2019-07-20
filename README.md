@@ -27,7 +27,7 @@ $ vim .env
 
 Proxy I would suggest to use [luminati.io](http://bit.ly/2XWFBhd), as the price consider quite cheap.
 
-<a href="http://bit.ly/2XWFBhd" title="The largest proxy network" target="_blank"><img src="/images/ads/lum_ad_250x250.png"/></a>
+<a href="http://bit.ly/2XWFBhd" title="The largest proxy network" target="_blank"><img src="http://jslim.net/images/ads/lum_ad_250x250.png"/></a>
 
 ## Usage
 
