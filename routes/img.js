@@ -8,7 +8,7 @@ const rimraf = require("rimraf");
 const archiver = require('archiver');
 const path = require('path');
 
-let download = function(uri, downloadPath, callback) {
+let download = function(uri, downloadPath) {
   if (!fs.existsSync(downloadPath)) {
     fs.mkdirSync(downloadPath, {recursive: true});
   }
@@ -29,9 +29,7 @@ router.get('/', async function(req, res, next) {
     return imageUrls;
   });
   for (i = 0; i < urls.length; i++) {
-    download(urls[i], downloadPath, function() {
-      logger.log(urls[i] + ' downlaoded');
-    });
+    download(urls[i], downloadPath);
   }
 
   let zipPath = __basedir + '/download/' + timestamp + '.zip';
